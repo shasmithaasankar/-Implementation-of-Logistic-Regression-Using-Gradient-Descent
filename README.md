@@ -20,7 +20,7 @@ Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: Shasmithaa Sankar
 RegisterNumber:  212224040311
 */
-`
+```
 import pandas as pd import numpy as np import matplotlib.pyplot as plt dataset=pd.read_csv("Placement_Data.csv") dataset
 
 #dropping the serial no and salary col dataset=dataset.drop("sl_no",axis=1) dataset=dataset.drop("salary",axis=1)
@@ -107,6 +107,14 @@ print(y_prednew)
 */
 
 ## Output:
+
+![image](https://github.com/user-attachments/assets/25eca98f-2f01-49ba-a2c9-7c997d12a720)
+![image](https://github.com/user-attachments/assets/ad567c57-c249-42ea-89c7-af55f98a0b60)
+![image](https://github.com/user-attachments/assets/2a0e1824-e0d6-42f6-ab1d-323f4a4f8507)
+![image](https://github.com/user-attachments/assets/f9a719f1-7b08-4a05-abed-4aef7c64036f)
+
+
+
 
 
 
