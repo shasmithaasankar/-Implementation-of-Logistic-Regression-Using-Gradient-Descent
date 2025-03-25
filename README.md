@@ -8,10 +8,18 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+
+1. Import Necessary Libraries: Import NumPy, pandas, and StandardScaler for numerical operations, data handling, and feature scaling, respectively.
+
+2.Define the Linear Regression Function: Create a linear regression function using gradient descent to iteratively update parameters, minimizing the difference between predicted and actual values.
+
+3.Load and Preprocess the Data: Load the dataset, extract features and target variable, and standardize both using StandardScaler for consistent model training.
+
+4.Perform Linear Regression: Apply the defined linear regression function to the scaled features and target variable, obtaining optimal parameters for the model.
+
+5.Make Predictions on New Data: Prepare new data, scale it, and use the trained model to predict the target variable, transforming predictions back to the original scale.
+
+6.Print the Predicted Value
 
 ## Program:
 ```
@@ -108,8 +116,10 @@ print(y_prednew)
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/25eca98f-2f01-49ba-a2c9-7c997d12a720)
-![image](https://github.com/user-attachments/assets/ad567c57-c249-42ea-89c7-af55f98a0b60)
+![image](https://github.com/user-attachments/assets/cd64091e-3452-4da4-8457-36e31e7464b0)
+
+![image](https://github.com/user-attachments/assets/d2ec62b6-d5e9-4d79-899e-bc24266a67c3)
+
 ![image](https://github.com/user-attachments/assets/2a0e1824-e0d6-42f6-ab1d-323f4a4f8507)
 ![image](https://github.com/user-attachments/assets/f9a719f1-7b08-4a05-abed-4aef7c64036f)
 
